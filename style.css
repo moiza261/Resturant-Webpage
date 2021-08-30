@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'poppins', sans-serif;
+    color: white;
+    background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65),rgba(0,0,0,0.38),rgba(0,0,0,0.38)), url(./images/back.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.box{
+    width: 900px;
+    float: right;
+    border: 1px solid none;
+}
+.box ul li{
+    list-style-type: none;
+    width: 120px;
+    float: left;
+    margin: 10px auto;
+    text-align: center;
+    padding: 5px 20px;
+}
+.box ul li a {
+    text-decoration: none;
+    color: darkgray;
+    padding: 10px;
+    transition: 0.6s ease;
+}
+.box ul li a:hover{
+    background-color: green;
+    color: white;
+}
+.wd{
+    width: 300px;
+    height: 539px;
+    background-color: black;
+    opacity: 0.9;
+    padding: 55px;
+}
+.wd h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500px;
+}
+.wd h4{
+    text-align: justify;
+    color: darkgray;
+    font-weight: normal;
+}
+.wd h2{
+    text-align: center;
+    font-weight: normal;
+    margin: 20px auto;
+}
+.btn{
+    position: absolute;
+    left: 11%;
+}
+.btn ul li{
+    list-style-type: none;
+}
+.btn ul li a{
+    border: 1px solid #fff;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    transition: 0.6s ease;
+}
+.btn ul li a:hover{
+    background: white;
+    color: black;
+}
+.footer {
+    position: absolute;
+    top: 90%;
+}
